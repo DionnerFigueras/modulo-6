@@ -1,0 +1,76 @@
+.register-employeer {
+    background-image: linear-gradient(105deg, #eaff70 0, #cfff77 10%, #b4ff7e 20%, #97fa84 30%, #78ef8a 40%, #57e18e 50%, #30d391 60%, #00c694 70%, #00bc98 80%, #00b39c 90%, #00aca1 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-registerEmployeer {
+    background: linear-gradient(rgba(253, 244, 236, 0.6), rgba(253, 244, 236, 0.6));
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.content-registerEmployeer h2 {
+    font-size: 40px;
+}
+
+.form-registerEmployeer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-registerEmployeer label {
+    font-size: 18px;
+    font-weight: 600;
+    align-self: flex-start;
+}
+
+.form-registerEmployeer input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.form-registerEmployeer button {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 5px;
+    background: #000;
+    color: #fff;
+}
+
+.form-registerEmployeer button:hover {
+    background: #353535;
+    border: 0;
+}
+
+.form-registerEmployeer .link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.form-registerEmployeer .link:hover {
+    color: #818181;
+}
+
+.p-error {
+    font-size: 16px;
+    font-weight: 600;
+    color: red;
+}
+

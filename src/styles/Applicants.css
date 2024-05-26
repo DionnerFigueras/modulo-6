@@ -1,0 +1,92 @@
+.container-applicants {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aside-applicants {
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 1 0;
+  background: rgb(222, 222, 222);
+  padding: 15px 0;
+}
+
+.aside-applicants p {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.aside-applicants .link {
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+
+.aside-applicants .link:hover {
+  color: #505050;
+}
+
+.main-applicants {
+  height: 92vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 4 4 0;
+}
+
+.main-applicants h2 {
+  font-size: 40px;
+  padding: 30px;
+}
+
+.form-applicants {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-applicants label {
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.form-applicants input {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.form-applicants button {
+  width: 250px;
+  height: 40px;
+  background: #000;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.form-applicants button:hover {
+  background: #525252;
+  border: 0;
+}
+
+.p-error {
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+}
+
+
+
+

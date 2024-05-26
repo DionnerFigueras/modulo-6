@@ -1,0 +1,29 @@
+import './App.css';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from './components/Home';
+import LoginEmployee from './components/LoginEmployee';
+import LoginEmployeer from './components/LoginEmployeer';
+
+ function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: '/',
+      element: <Home />
+    },
+    {
+      path: '/loginEmployee',
+      element: <LoginEmployee />
+    },
+    {
+      path: '/loginEmployeer',
+      element: <LoginEmployeer />
+    }
+  ]); 
+
+  return (
+    <RouterProvider router={router} />
+  );
+}
+
+export default App;

@@ -1,0 +1,78 @@
+.register-employee {
+  height: 100vh;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(90deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-register {
+  background: linear-gradient(rgba(253, 244, 236, 0.6), rgba(253, 244, 236, 0.6));
+  padding: 30px 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content-register h2 {
+  font-size: 36px;
+}
+
+.form-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-register label {
+  font-size: 18px;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.form-register input {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+.form-register button {
+  background: #000;
+  color: #fff;
+  width: 250px;
+  height: 40px;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid #000;
+
+}
+
+.form-register button:hover {
+  background: #525252;
+}
+
+.form-register .link {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  padding-top: 10px;
+}
+
+.form-register .link:hover {
+  color: rgb(81, 81, 81);
+}
+
+.p-error {
+  font-size: 16px;
+  font-weight: 600;
+  color: red;
+}
