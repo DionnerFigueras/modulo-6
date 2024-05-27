@@ -35,6 +35,7 @@ function LoginEmployeer() {
                     <input type='password' value={password} onChange={e => setpassword(e.target.value)}></input>
 
                     <button>Iniciar Sesion</button>
+                    {/*Este Link nos regrese al Home*/}
                     <Link className='link' to='/'>Regresar</Link>
                 </form>
                 {error && <p className='p-error'> Todos los campos son requeridos </p>}

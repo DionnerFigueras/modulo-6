@@ -1,23 +1,23 @@
 import { Link, useNavigate } from 'react-router-dom';
 import '../styles/LoginEmployee.css';
-import { useState } from 'react';
+import { useState } from 'react'; // Importacion del Hook
 
 
-function LoginEmployee() {
+function LoginEmployee() { // Variables a utilizar:
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState(false);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); //Definicion del Hook navigate
 
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    if (username === '' || password === '') {
-      setError(true);
+    e.preventDefault(); 
+    if (username === '' || password === '') { 
+      setError(true); 
       return
     }
-    setError(false);
-    navigate('/applicants', {replace:true})
+    setError(false); 
+    navigate('/applicants', {replace:true}) //Uso del Hook navigate
   }
 
   return (
@@ -29,7 +29,7 @@ function LoginEmployee() {
           <p>Descubre las mejores oportunidades en el mundo IT.</p>
         </div>
 
-        <form className='form-loginEmployee' onSubmit={handleSubmit}>
+        <form className='form-loginEmployee' onSubmit={handleSubmit}> {/* Implementacion de la funcion handleSubmit  */}
           <label for="username">Nombre de usuario:</label>
           <input type='text' value={username} onChange={e => setUsername(e.target.value)}></input>
 

@@ -1,12 +1,11 @@
 import './App.css';
-import Rutas from './components/Routes'
-
+import Rutas from './components/Routes'; 
 
 
  function App() {
 
   return (
-    <Rutas  />
+    <Rutas />
   );
 }
 

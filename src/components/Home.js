@@ -9,7 +9,6 @@ function Home() {
 
     <div className="home-content-main">
 
-
       <header className="home-container">
         <div className="home-logo">
           <img src={logo} alt="Logo" title="Logo" />
@@ -21,10 +20,10 @@ function Home() {
             <li className="login-item">
               Ingresar
               <ul className="sub-listLogin">
-                <li>
+                <li>{/* Este Link nos dirige al inicio de sesion de empleados*/}
                   <Link className="links" to='/loginEmployee'>Empleado</Link> 
                 </li>
-                <li>
+                <li>{/* Este Link nos dirige al inicio de sesion de empresas*/}
                   <Link className="links" to='/loginEmployeer'>Empresa</Link> 
                 </li>
               </ul>
@@ -32,10 +31,10 @@ function Home() {
             <li className="register-item">
               Registrarse
               <ul className="sub-listRegister">
-                <li>
+                <li>{/* Este Link nos dirige al registro de empleados*/}
                   <Link className="links" to='/registerEmployee'>Empleado</Link> 
                 </li>
-                <li>
+                <li> {/* Este Link nos dirige al registro de empresas*/}
                   <Link className="links" to='/registerEmployeer'>Empresa</Link> 
                 </li>
               </ul>
